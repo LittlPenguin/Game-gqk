@@ -16,7 +16,7 @@ function start() {
   if (!flag) {
     init();
   } else {
-    alert("游戏已经开始，无须再次点击！");
+    alert("不要！再点就会坏掉啦");
   }
 }
 
@@ -118,7 +118,7 @@ function move() {
 function speedup() {
   speed += 2;
   if (speed == 20) {
-    alert("你超神了");
+    alert("就这？你不会就只会这点吧");
   }
 }
 
