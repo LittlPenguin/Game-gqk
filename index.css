@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     max-width: 800px;
     height: 100vh;
+    position: relative;
 }
 
 #main {
@@ -16,6 +17,13 @@ body {
     height: 80%;
     border: 2px solid #ccc;
     overflow: hidden;
+}
+
+h4 {
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    font-weight: 800;
 }
 
 h2 {
@@ -38,12 +46,14 @@ h2 {
     height: 100%;
     width: 25%;
     float: left;
-    background-color: rgb(255, 255, 255);
+    background: url(images/鱼2.jpg) no-repeat;
+    background-size: cover;
     border: 1px solid #ccc;
 }
 
 .black {
-    background-color: #000;
+    background: url(images/鱼1.jpg) no-repeat;
+    background-size: cover;
 }
 
 .btn {
