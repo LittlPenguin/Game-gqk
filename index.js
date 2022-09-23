@@ -126,7 +126,7 @@ function move() {
   over();
   if (top == 0) {
     createrow();
-    con.style.top = "-102px";
+    con.style.top = "-169px";
     delrow();
   }
 }
