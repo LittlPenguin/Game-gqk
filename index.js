@@ -116,7 +116,8 @@ function creatcell() {
 function move() {
   var con = $("con");
   var top = parseInt(window.getComputedStyle(con, null)["top"]);
-
+  var bhi = document.querySelector(".row").offsetHeight;
+  var bhe = "-" + bhi;
   if (speed + top > 0) {
     top = 0;
   } else {
@@ -126,7 +127,7 @@ function move() {
   over();
   if (top == 0) {
     createrow();
-    con.style.top = "-169.01px";
+    con.style.top = bhe + "px";
     delrow();
   }
 }
