@@ -14,7 +14,7 @@ var flag = false;
 
 function start() {
   if (!flag) {
-    speed=6
+    speed = 6
     init();
   } else {
     alert("不要！再点就会坏掉啦");
